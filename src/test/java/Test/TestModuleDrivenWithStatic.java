@@ -17,7 +17,7 @@ public class TestModuleDrivenWithStatic {
 			TestModuleDrivenWithStatic.method1();
 			TestModuleDrivenWithStatic.method2();
 			TestModuleDrivenWithStatic.method3();
-			TestModuleDrivenWithStatic.method4();
+			
 		}
 	}
 	
@@ -38,11 +38,6 @@ public class TestModuleDrivenWithStatic {
 		WebDriverManager.operadriver().setup();
 		OperaDriver driver=new OperaDriver();
 	}
-	
-	public static void method4()
-	{
-		WebDriverManager.edgedriver().setup();
-		EdgeDriver driver=new EdgeDriver();
-	 }
+
 	}
 
